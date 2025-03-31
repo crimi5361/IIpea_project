@@ -12,7 +12,7 @@ import {
 
 interface SidemenuProps {
   isSidemenuOpen: boolean;
-  darkMode: boolean; // Ajout de darkMode
+  darkMode: boolean; 
 }
 
 const Sidemenu: React.FC<SidemenuProps> = ({ isSidemenuOpen, darkMode }) => {

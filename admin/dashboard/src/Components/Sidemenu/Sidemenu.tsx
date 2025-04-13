@@ -34,7 +34,7 @@ const Sidemenu: React.FC<SidemenuProps> = ({ isSidemenuOpen, darkMode }) => {
     { key: "/Emploi_du_temps", icon: <CalendarOutlined />, label: "Emploi du temps" },
     { key: "/classe", icon: <TeamOutlined />, label: "Classes" },
     { key: "/professeur", icon: <TeamOutlined />, label: "Professeurs" },
-    { key: "/departement", icon: <ApartmentOutlined />, label: "Département" },
+    { key: "/Campus", icon: <ApartmentOutlined />, label: "Campus" },
     { key: "/filiere", icon: <BookOutlined />, label: "Filières" },
     { key: "/sales", icon: <ShopOutlined />, label: "Salles" },
   ];

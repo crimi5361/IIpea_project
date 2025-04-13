@@ -10,13 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.1",
+    "@mui/material": "^7.0.1",
+    "@mui/x-data-grid": "^7.28.3",
     "@tailwindcss/postcss": "^4.0.17",
-    "antd": "^5.24.5",
+    "antd": "^5.24.6",
     "icons": "^1.0.0",
+    "lucide-react": "^0.486.0",
+    "multer": "^1.4.5-lts.2",
     "react": "^19.1.0",
+    "react-data-table-component": "^7.7.0",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.4.1"
+    "react-router-dom": "^7.4.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

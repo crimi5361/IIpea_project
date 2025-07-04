@@ -19,7 +19,9 @@ function App() {
   return (
     <div className="font-tinos ">
       {/* Barre de navigation */}
-      <Header toggleSidemenu={toggleSidemenu} darkMode={false} />
+      <Header toggleSidemenu={toggleSidemenu} darkMode={false} userName={""} onLogout={function (): void {
+        throw new Error("Function not implemented.");
+      } } />
       {/* Menu latéral */}
       <Sidemenu isSidemenuOpen={isSidemenuOpen}  />
       {/* Contenu principal */}
